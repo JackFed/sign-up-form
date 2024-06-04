@@ -119,9 +119,10 @@ form.sign-up {
 
 .info {
     display: flex;
-    align-items: center;
+    flex-direction: column;
     justify-content: center;
     padding: 80px 40px;
+    gap: 1em;
 }
 
 input:focus {
